@@ -1,6 +1,6 @@
 # HackFolio | Modern Hacker-themed Portfolio 
 
-![HackFolio Banner](public/opengraph-image.png)
+![HackFolio Banner](public/uploads/HackFolio.jpeg)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
