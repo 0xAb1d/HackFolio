@@ -1,0 +1,69 @@
+
+@layer base {
+    * {
+      @apply border-border;
+    }
+  
+    body {
+      @apply bg-[#0a0a0a] text-foreground font-spacemono;
+    }
+  
+    .light-mode body {
+      @apply bg-[#f1f5f1] text-foreground font-spacemono;
+    }
+  
+    h1, h2, h3, h4, h5, h6 {
+      @apply font-sharetech;
+    }
+  
+    p {
+      @apply leading-relaxed tracking-wide text-base font-spacemono;
+    }
+    
+    /* SEO optimization: Add appropriate heading and content styles */
+    h1 {
+      @apply text-4xl font-bold mb-4;
+    }
+    
+    h2 {
+      @apply text-3xl font-bold mb-3;
+    }
+    
+    h3 {
+      @apply text-2xl font-bold mb-2;
+    }
+    
+    /* Improve accessibility */
+    a:focus, button:focus {
+      @apply outline-none ring-2 ring-primary;
+    }
+    
+    /* Light mode specific styles */
+    .light-mode .article-card {
+      @apply border-neon/30 bg-white/80;
+    }
+    
+    .light-mode .neon-border {
+      @apply border-neon/50 hover:border-neon;
+    }
+    
+    .light-mode .bg-darkcard\/90,
+    .light-mode .bg-\[\#1a1a1a\]\/90,
+    .light-mode .bg-\[\#1a1a1a\] {
+      @apply bg-white/80 text-foreground;
+    }
+    
+    .light-mode .text-white {
+      @apply text-gray-800;
+    }
+    
+    .light-mode .text-gray-300,
+    .light-mode .text-gray-400 {
+      @apply text-gray-600;
+    }
+    
+    .light-mode .achievement-item {
+      @apply bg-white/80 border-neon/30;
+    }
+  }
+  

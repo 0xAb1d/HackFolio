@@ -1,0 +1,49 @@
+.terminal-text {
+    @apply font-terminal text-neon;
+  }
+  
+  .light-mode .terminal-text {
+    @apply font-terminal text-darkgreen;
+  }
+  
+  .neon-border {
+    @apply border border-neon/30 hover:border-neon transition-colors duration-300;
+  }
+  
+  .neon-card {
+    @apply backdrop-blur-md bg-darkcard/90 border border-neon/20 hover:border-neon/40 transition-all duration-300;
+  }
+  
+  .terminal-header {
+    @apply flex items-center h-6 bg-[#1a1a1a]/90 backdrop-blur-md border-b border-neon/20 px-2;
+  }
+  
+  .light-mode .terminal-header {
+    @apply bg-[#e8f0e8]/90 backdrop-blur-md border-darkgreen/20;
+  }
+  
+  .terminal-circle {
+    @apply w-2 h-2 rounded-full mx-1;
+  }
+  
+  .light-mode .bg-darkcard\/90 {
+    @apply bg-white/90;
+  }
+  
+  .light-mode .bg-\[\#1a1a1a\]\/90 {
+    @apply bg-white/90;
+  }
+  
+  .light-mode .bg-\[\#0a0a0a\] {
+    @apply bg-[#f1f5f1];
+  }
+  
+  /* Fix for dark backgrounds in light mode */
+  .light-mode .bg-darkbg {
+    @apply bg-gray-100;
+  }
+  
+  .light-mode .bg-darkbg\/80 {
+    @apply bg-gray-100/80;
+  }
+  

@@ -1,0 +1,74 @@
+@layer base {
+    :root {
+      --background: 0 0% 7%;
+      --foreground: 120 100% 98%;
+  
+      --card: 0 0% 10%;
+      --card-foreground: 120 100% 98%;
+  
+      --popover: 0 0% 10%;
+      --popover-foreground: 120 100% 98%;
+  
+      --primary: 120 100% 50%;
+      --primary-foreground: 0 0% 0%;
+  
+      --secondary: 0 0% 15%;
+      --secondary-foreground: 120 100% 98%;
+  
+      --muted: 0 0% 15%;
+      --muted-foreground: 120 100% 70%;
+  
+      --accent: 120 100% 50%;
+      --accent-foreground: 0 0% 0%;
+  
+      --destructive: 0 84.2% 60.2%;
+      --destructive-foreground: 0 0% 98%;
+  
+      --border: 120 100% 20%;
+      --input: 120 100% 20%;
+      --ring: 120 100% 50%;
+  
+      --radius: 0.5rem;
+  
+      --neon: #00ff00;
+      --darkgreen: #005418;
+      --darkbg: rgba(18, 18, 18, 0.85);
+      --darkcard: rgba(26, 26, 26, 0.85);
+    }
+  
+    .light-mode {
+      --background: 100 30% 95%;
+      --foreground: 120 60% 10%;
+  
+      --card: 0 0% 98%;
+      --card-foreground: 120 60% 10%;
+  
+      --popover: 0 0% 98%;
+      --popover-foreground: 120 60% 10%;
+  
+      --primary: 138 100% 25%;
+      --primary-foreground: 0 0% 100%;
+  
+      --secondary: 120 15% 90%;
+      --secondary-foreground: 120 60% 10%;
+  
+      --muted: 120 15% 90%;
+      --muted-foreground: 120 30% 30%;
+  
+      --accent: 138 100% 25%;
+      --accent-foreground: 0 0% 100%;
+  
+      --destructive: 0 70% 50%;
+      --destructive-foreground: 0 0% 98%;
+  
+      --border: 120 30% 80%;
+      --input: 120 30% 80%;
+      --ring: 138 100% 25%;
+  
+      --neon: #005418;
+      --darkgreen: #005418;
+      --darkbg: rgba(241, 245, 241, 0.95);
+      --darkcard: rgba(232, 240, 232, 0.95);
+    }
+  }
+  

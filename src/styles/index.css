@@ -1,0 +1,11 @@
+@import './fonts.css';
+@import './themes.css';
+@import './base.css';
+@import './terminal.css';
+@import './scrollbar.css';
+@import './components.css';
+@import './glitch.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

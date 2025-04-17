@@ -1,0 +1,91 @@
+.achievement-item {
+    @apply flex items-start gap-3 bg-darkcard/90 backdrop-blur-md p-3 rounded-md border border-neon/20 mb-3 transition-all duration-300 hover:border-neon/40;
+  }
+  
+  .achievement-item p {
+    @apply text-base;
+  }
+  
+  .cyber-icon {
+    @apply text-neon inline-flex items-center justify-center;
+  }
+  
+  .article-card {
+    @apply bg-darkcard/90 backdrop-blur-md rounded-md overflow-hidden border border-neon/20 hover:border-neon/40 transition-all duration-300;
+  }
+  
+  .article-title {
+    @apply text-base font-bold p-2 text-white;
+  }
+  
+  .light-mode .article-title {
+    @apply text-gray-800;
+  }
+  
+  .article-description {
+    @apply text-sm px-2 pb-2 text-gray-400;
+  }
+  
+  .light-mode .article-description {
+    @apply text-gray-600;
+  }
+  
+  .nav-link {
+    @apply block py-2 px-4 text-sm uppercase tracking-wider text-neon hover:bg-neon/10 transition-colors;
+  }
+  
+  .light-mode .nav-link {
+    @apply hover:bg-neon/10;
+  }
+  
+  .side-nav {
+    @apply fixed left-0 top-1/2 -translate-y-1/2 flex flex-col bg-[#121212]/90 backdrop-blur-md rounded-r-md border-r border-t border-b border-neon/30 text-xs uppercase tracking-wider text-neon font-mono z-50;
+  }
+  
+  .light-mode .side-nav {
+    @apply bg-[#e8f0e8]/90 backdrop-blur-md border-neon/30;
+  }
+  
+  .light-mode .neon-card {
+    @apply bg-white/80 border-darkgreen/30;
+  }
+  
+  .light-mode .cyber-icon {
+    @apply text-darkgreen;
+  }
+  
+  /* Ensure neon borders are properly styled in light mode */
+  .light-mode .neon-border {
+    @apply border border-darkgreen/30 hover:border-darkgreen/50;
+  }
+
+  /* Handle any instances of neon backgrounds in light mode */
+  .light-mode .bg-neon {
+    @apply bg-darkgreen;
+  }
+
+  .light-mode .bg-neon\/10 {
+    @apply bg-darkgreen/10;
+  }
+
+  .light-mode .bg-neon\/20 {
+    @apply bg-darkgreen/20;
+  }
+
+  /* Use direct CSS property instead of @apply to avoid circular dependencies */
+  .light-mode .bg-neon\/5 {
+    background-color: rgba(0, 255, 0, 0.05); /* neon color with 5% opacity */
+  }
+
+  /* Handle gradients that use neon color */
+  .light-mode .from-neon {
+    @apply from-darkgreen;
+  }
+  
+  /* Ensure all highlighting in menus remains consistent using direct CSS */
+  .light-mode .from-neon.nav-element {
+    --tw-gradient-from: #00ff00 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(0 255 0 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+  

@@ -1,0 +1,9 @@
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://abidahmad.com/sitemap.xml
+
+# Optimize crawl rate
+Crawl-delay: 10
