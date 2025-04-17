@@ -1,6 +1,5 @@
 # HackFolio | Modern Hacker-themed Portfolio 
 
-![HackFolio Banner](public/uploads/HackFolio.jpeg)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
@@ -187,6 +186,10 @@ The portfolio functions as a Progressive Web App (PWA) with:
 - Fast loading on slow networks
 - Push notification ready
 - Service worker caching
+
+
+![HackFolio Banner](public/uploads/HackFolio.jpeg)
+
 
 ## 🔒 Cybersecurity Focus
 
