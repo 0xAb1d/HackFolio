@@ -268,7 +268,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Abid Ahmad - [hello@abidahmad.com](mailto:hello@abidahmad.com)
 
-Project Link: [https://github.com/0xAb1d/abidfolio](https://github.com/0xAb1d/abidfolio)
+Project Link: [https://github.com/0xAb1d/HackFolio](https://github.com/0xAb1d/HackFolio)
 
 ---
 
